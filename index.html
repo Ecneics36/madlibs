@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>MAD LIB CREATOR</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="header-content">
+        <h1>MAD LIB CREATOR</h1>
+        <p>
+          Fill out up to 4 words in each category, and pick one of the stories
+          to use
+        </p>
+      </div>
+    </header>
+    <div id="inputs">
+      <div id="word-inputs">
+        <input type="text" id="noun-input" placeholder="Type Nouns Here" />
+        <input type="text" id="verb-input" placeholder="Type Verbs Here" />
+        <input
+          type="text"
+          id="adjective-input"
+          placeholder="Type Adjectives Here"
+        />
+        <input type="text" id="adverb-input" placeholder="Type Adverbs Here" />
+      </div>
+      <div id="story-buttons">
+        <label for="story-one-button">
+          <input
+            type="radio"
+            class="story-buttons"
+            name="story-selector"
+            value="story-one"
+            id="story-one-button"
+            name="story-button"
+          />
+          Christmas Tree
+        </label>
+        <label for="story-two-button">
+          <input
+            type="radio"
+            class="story-buttons"
+            name="story-selector"
+            value="story-two"
+            id="story-two-button"
+            name="story-button"
+          />
+          Shopping
+        </label>
+        <label for="story-three-button">
+          <input
+            type="radio"
+            class="story-buttons"
+            name="story-selector"
+            value="story-three"
+            id="story-three-button"
+            name="story-button"
+          />
+          Brainstorm
+        </label>
+        <button type="submit" id="submit">Make a Mad Lib!</button>
+      </div>
+    </div>
+    <div id="stories">
+      <div id="story-one">
+        <h2>Christmas Tree</h2>
+        <p>
+          Every Christmas we <span class="verb"></span> to a
+          <span class="adjective"></span> tree farm far away. This is not just
+          any <span class="adjective"></span> tree farm. My dad and I
+          <span class="verb"></span> onto the <span class="noun"></span> to
+          <span class="verb"></span> for the perfect <span class="noun"></span>.
+          Some people like them <span class="adjective"></span>, but I prefer
+          them <span class="adjective"></span>. After searching for hours I
+          usually <span class="adverb"></span> exclaim, "Dad! The perfect tree
+          is over there!" Off we <span class="verb"></span> to get the tree. The
+          problem is we always forget the <span class="noun"></span> and the
+          <span class="noun"></span>. But at the end of the day we
+          <span class="adverb"></span> get the tree and head home
+          <span class="adverb"></span>. "I wish it was Christmas all year
+          round." I <span class="adverb"></span> think to myself.
+        </p>
+      </div>
+      <div id="story-two">
+        <h2>Shopping</h2>
+        <p>
+          Today I went shopping. When I arrived at the store I saw a
+          <span class="adjective"></span> <span class="noun"></span>, who upon
+          noticing me <span class="adverb"></span> said "I need to
+          <span class="verb"></span>". "Well, that was
+          <span class="adjective"></span>" I thought to myself and walked in the
+          store. The store had rearranged its inventory, so I felt
+          <span class="adverb"></span> lost. I walked up to store clerk and said
+          <span class="adverb"></span>, "I am looking for a
+          <span class="adjective"></span> <span class="noun"></span> that
+          doesn’t <span class="verb"></span> as often as the last one I had."
+          The store clerk looked at me with a
+          <span class="adjective"></span> look in his eye and said, "What you
+          are looking for can be found by the <span class="noun"></span>, if you
+          see a <span class="noun"></span> that <span class="adverb"></span> can
+          <span class="verb"></span>, then you've gone too far." As I tried to
+          understand his directions, I thought to myself, "I should have just
+          ordered it on amazon.com, their products seem to
+          <span class="verb"></span> the perfect amount."
+        </p>
+      </div>
+      <div id="story-three">
+        <h2>Brainstorm</h2>
+        <p>
+          Many say that brainstorming is <span class="adjective"></span> and
+          does not <span class="verb"></span>. However, with the combination of
+          the right computer and <span class="noun"></span> anyone can lead a
+          good <span class="verb"></span>. When you have
+          <span class="adverb"></span> pulled together a
+          <span class="adjective"></span> group of <span class="noun"></span> in
+          a big room with lots of TVs then magical things will happen. In the
+          past we have <span class="adverb"></span> suggested participants work
+          together to find the most <span class="adjective"></span> solution.
+          The most difficult part is many <span class="adjective"></span>
+          <span class="noun"></span> like to <span class="verb"></span>. This
+          has proven to be <span class="adverb"></span> problematic. But in the
+          end the most important <span class="noun"></span> usually is brought
+          to light. Typically we try to encourage ideas to
+          <span class="verb"></span>, and never shut ideas down. This concludes
+          our instructions. Thanks for <span class="adverb"></span> listening!
+        </p>
+      </div>
+    </div>
+    <script src="lists.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
